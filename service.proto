@@ -6,6 +6,7 @@ service String {
     rpc Uppercase(UppercaseRequest) returns (UppercaseResponse) {}
 }
 
+
 message UppercaseRequest {
     string s = 1;
 }
